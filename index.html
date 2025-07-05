@@ -4,10 +4,25 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>SecurityP</title>
+  <title>SECURITY APP</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
-<body style="font-family: sans-serif; background-color: #f0f8ff; text-align: center;">
-  <h1>Welcome to the SecurityP App</h1>
-  <p>This is a placeholder index.html</p>
+<body>
+  <header>
+    <h1>SECURITY APP</h1>
+    <p>To serve and protect</p>
+  </header>
+  <main>
+    <form action="submit.php" method="POST">
+      <label><strong>Your Name:</strong><br><input type="text" name="name" required></label><br>
+      <label><strong>Phone Number:</strong><br><input type="text" name="phone" required></label><br>
+      <label><strong>Sub County:</strong><br><input type="text" name="subcounty" required></label><br>
+      <label><strong>Location:</strong><br><input type="text" name="location" required></label><br>
+      <label><strong>Sublocation:</strong><br><input type="text" name="sublocation" required></label><br>
+      <label><strong>Complaint:</strong><br><textarea name="complaint" rows="4" required></textarea></label><br>
+      <button type="submit">Submit Report</button>
+    </form>
+  </main>
+  <footer>System by: PAUL MAKOKHA, To God be the Glory</footer>
 </body>
 </html>
